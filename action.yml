@@ -1,4 +1,4 @@
-name: 'Get Terraform outputs'
+name: 'Get Terraform Outputs'
 author: 'Dennis Beatty'
 description: 'Gets outputs from Terraform Cloud and outputs them'
 branding:
