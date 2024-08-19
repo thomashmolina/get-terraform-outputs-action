@@ -69,7 +69,7 @@ async function run() {
 
   const client = axios.create({
     baseURL: 'https://app.terraform.io/api/v2',
-    timeout: 5000,
+    timeout: 10000,
     headers: {
       'Authorization': `Bearer ${apiToken}`,
       'Content-Type': 'application/vnd.api+json',
